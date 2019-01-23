@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:url(1.jpg) center no-repeat;
+    background-size:cover;
+    font-size: 10px;
+    text-align: center;
+}
+svg {
+    fill:white;
+    background: rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 50%;
+    width:200px;
+    margin-bottom: 50px;
+}
+.wrapper {
+    max-width: 350px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.plates {
+    text-align: left;
+}
+
+.plates li {
+    padding: 10px;
+    font-weight: 800;
+}
+
+.change-items input{
+    padding: 10px;
+    outline: 0;
+    border:1px solid rgba(0,0,0,0.1)
+}
